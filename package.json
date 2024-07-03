@@ -1,0 +1,33 @@
+{
+  "name": "llm-prompt-relevance-check",
+  "version": "1.0.0",
+  "description": "Check whether user generated prompt for AI assistant is relevant to context.",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zion-off/llm-prompt-relevance-check.git"
+  },
+  "keywords": [
+    "LLM",
+    "AI",
+    "API",
+    "chatbot"
+  ],
+  "author": "zzzzion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zion-off/llm-prompt-relevance-check/issues"
+  },
+  "homepage": "https://github.com/zion-off/llm-prompt-relevance-check#readme",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
