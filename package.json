@@ -1,7 +1,8 @@
 {
   "name": "llm-prompt-relevance-check",
+  "author": "zzzzion",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -16,5 +17,18 @@
   },
   "dependencies": {
     "@xenova/transformers": "^2.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zion-off/llm-prompt-relevance-check.git"
+  },
+  "keywords": [
+    "LLM",
+    "AI",
+    "API",
+    "chatbot"
+  ],
+  "bugs": {
+    "url": "https://github.com/zion-off/llm-prompt-relevance-check/issues"
   }
 }

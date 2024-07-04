@@ -4,12 +4,12 @@ import { pipeline, env } from "@xenova/transformers";
 env.allowLocalModels = false;
 env.useBrowserCache = false;
 
-const MODEL = "Xenova/roberta-large-mnli";
+const MODEL = "Xenova/mobilebert-uncased-mnli";
 const TASK = "zero-shot-classification";
 
 // Start loading the model immediately
 console.log("llm-prompt-relevance-check: starting to load the model...");
-const pipelinePromise = pipeline(TASK, MODEL).then((pipe) => {
+const pipelinePromise = pipeline(TASK, MODEL, { quantized: true }).then((pipe) => {
   console.log("llm-prompt-relevance-check: model loaded successfully");
   return pipe;
 });
