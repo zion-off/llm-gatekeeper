@@ -8,9 +8,9 @@ const MODEL = "Xenova/mobilebert-uncased-mnli";
 const TASK = "zero-shot-classification";
 
 // Start loading the model immediately
-console.log("llm-prompt-relevance-check: starting to load the model...");
+console.log("llm-gatekeeper: starting to load the model...");
 const pipelinePromise = pipeline(TASK, MODEL, { quantized: true }).then((pipe) => {
-  console.log("llm-prompt-relevance-check: model loaded successfully");
+  console.log("llm-gatekeeper: model loaded successfully");
   return pipe;
 });
 

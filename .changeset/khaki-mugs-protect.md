@@ -1,5 +1,5 @@
 ---
-"llm-prompt-relevance-check": minor
+"llm-gatekeeper": minor
 ---
 
 Added README

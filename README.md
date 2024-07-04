@@ -1,4 +1,4 @@
-# llm-prompt-relevance-check
+# llm-gatekeeper
 
 A lightweight package to help you check whether a prompt to an AI chatbot is relevant to the context. Keep your API costs down by filtering out irrelevant queries!
 
@@ -16,13 +16,13 @@ This package uses the [Xenova/mobilebert-uncased-mnli](https://huggingface.co/Xe
 ## Installation
 
 ```sh
-$ npm i llm-prompt-relevance-check
+$ npm i llm-gatekeeper
 ```
 
 ## Usage
 
 ```js
-import isRelevant from "llm-prompt-relevance-check";
+import isRelevant from "llm-gatekeeper";
 
 const prompt = "Should I travel this summer?";
 const keywords = ["reading", "books", "essays"];

@@ -1,5 +1,5 @@
 {
-  "name": "llm-prompt-relevance-check",
+  "name": "llm-gatekeeper",
   "author": "zzzzion",
   "license": "MIT",
   "version": "1.0.0",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zion-off/llm-prompt-relevance-check.git"
+    "url": "git+https://github.com/zion-off/llm-gatekeeper.git"
   },
   "keywords": [
     "LLM",
@@ -29,6 +29,6 @@
     "chatbot"
   ],
   "bugs": {
-    "url": "https://github.com/zion-off/llm-prompt-relevance-check/issues"
+    "url": "https://github.com/zion-off/llm-gatekeeper/issues"
   }
 }
