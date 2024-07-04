@@ -72,4 +72,4 @@ If you are not getting accurate results, try adding more keywords. Or submit an 
 
 ## Credits
 
-Thanks to my friend [Zein](https://github.com/ZeinMukhanov) for inspiring the idea for the package. I wouldn't have made it if he wasn't abusing my chatbot on my web and costing me money.
+Thanks to my friend [Zein](https://github.com/ZeinMukhanov) for inspiring the idea for the package. I wouldn't have made it if he wasn't abusing my chatbot on my website and costing me money.
